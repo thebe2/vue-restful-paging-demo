@@ -15,11 +15,13 @@ export default {
   }
 }
 
+//# 使用jquery请求数据
 function getData(page, cb) {
   $.ajax({
     url: 'todos?pageSize=10&page=' + page,
     type: 'GET',
     success: function(data, textStatus, jqXHR) {
+      //#从header上取total和page
       let total = parseInt(jqXHR.getResponseHeader('total'))
       let pageIndex = parseInt(jqXHR.getResponseHeader('page'))
       console.log(pageIndex)

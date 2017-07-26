@@ -1,4 +1,4 @@
-# 一个简单的前后端分离的列表示例，支持动态翻页
+# 一个前后端分离的列表示例，支持动态翻页
 
 ## 前端使用jquery+bootstrap+vue2.0
 
@@ -6,17 +6,18 @@
 * Python 版由Flask提供服务
 * Node 版由express提供服务
 
-## Python版
+## Python版服务
 项目依赖
-    -flask
-    -flask-restful
-使用方法：
-1 安装Python2.7和pip
-2 pip python > requirements.txt
-3 命令行运行 <code>python app.py</code>
-2.浏览器中打开127.0.0.1:5000
+-flask
+-flask-restful
 
-## Node版
+使用方法：
+1. 安装Python2.7和pip
+2. pip python > requirements.txt
+3. 命令行运行 <code>python app.py</code>
+4. 浏览器中打开<code>127.0.0.1:5000 </code>
+
+## Node版服务
 ### Keywords
 
 - Vue
